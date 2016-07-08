@@ -36,3 +36,5 @@ RabbitMQ + PHP Basic Application | Message Queuing
 
 ### msg_db.sql
   import this file in mysql to get a test db(msg_db) and a test table(msg)
+
+** This is just a demo code. No validation/authentication has been done.
