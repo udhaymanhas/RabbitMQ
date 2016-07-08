@@ -42,9 +42,9 @@ RabbitMQ + PHP Basic Application | Message Queuing
   * On one terminal(cmd) Run message reciver using command 'php reciever.php'
   * On another terminal(cmd) Send message as arguments with command 'php send.php john johndoe@mail.com 9999999999'
   
-  ** Edit file run.php to alter sending data to queueAssignment($name, $email, $phone).
-  ** Edit callback function $task in recieve.php to handle recieved data.
-  ** Edit file conn.php to update respective database credentials.
+  * Edit file run.php to alter sending data to queueAssignment($name, $email, $phone).
+  * Edit callback function $task in recieve.php to handle recieved data.
+  * Edit file conn.php to update respective database credentials.
 
 
 ***** This is just a demo code. No validation/authentication has been done.
