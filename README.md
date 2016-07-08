@@ -37,7 +37,7 @@ RabbitMQ + PHP | Basic Application | Message Queueing
 ### msg_db.sql
   import this file in mysql to get a test db(msg_db) and a test table(msg)
 
-## Running Project
+## Running the Project
   * Start the RabbitMQ server 
   * On one terminal(cmd) Run message reciver using command 'php reciever.php'
   * On another terminal(cmd) Send message as arguments with command 'php send.php john johndoe@mail.com 9999999999'
