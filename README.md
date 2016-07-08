@@ -24,7 +24,7 @@ RabbitMQ + PHP Basic Application | Message Queuing
   
   
 ### reciever.php (consumer)
-  Recieves data and processes it under callback $task (updates db and JSON in this example)
+  Recieves data and processes it under callback $task (updates db and JSON (queue.json) in this example)
   
   
 ### conn.php
