@@ -25,6 +25,8 @@ require_once __DIR__ . '/send.php';
     $sendMessage = new Send();
 
     if($sendMessage->queueAssignment($name, $email, $phone))
-    echo "Message Sent-queued\n";
+        echo "Message Sent - QUEUED\n";
+    else
+        echo "Message Sent - FAILED"
 
 ?>

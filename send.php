@@ -31,12 +31,19 @@ class Send
             array('delivery_mode' => 2)
         );
 
-        $channel->basic_publish($msg, '', 'msg_queue');
+        if($channel->basic_publish($msg, '', 'msg_queue') == '')
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
 
         $channel->close();
         $amqp->close();
 
-        return true;
+//        return true;
     }
 }
 
