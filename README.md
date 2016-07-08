@@ -7,6 +7,7 @@ RabbitMQ + PHP Basic Application | Message Queuing
 * send.php (producer)
 * recieve.php (consumer)
 * conn.php (db-config)
+* msg_db.sql (mysql exported db)
   
 
 ### RabbitMQ Installation (windows):
@@ -32,3 +33,6 @@ RabbitMQ + PHP Basic Application | Message Queuing
   
 ### run.php  
   uses function queueAssignment($name, $email, $phone) to send data(via CLI)
+
+### msg_db.sql
+  import this file in mysql to get a test db(msg_db) and a test table(msg)
