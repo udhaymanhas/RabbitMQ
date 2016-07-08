@@ -1,5 +1,5 @@
 # RabbitMQ + PHP
-RabbitMQ + PHP Basic Application | Message Queuing
+RabbitMQ + PHP | Basic Application | Message Queueing
 
 ### Files:
 * composer.json
