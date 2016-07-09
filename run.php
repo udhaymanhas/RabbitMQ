@@ -7,13 +7,13 @@
  */
 require_once __DIR__ . '/send.php';
 
-    $data = implode(' ', array_slice($argv, 1));
+    $data = implode(' ', array_slice($argv, 1)); //If arguments exists
 
     if(empty($data))
     {
-        $name = "default";
-        $email = "default";
-        $phone = "default";
+        $name = "default_name";
+        $email = "default_email";
+        $phone = "default_phone";
     }
     else
     {
